@@ -112,7 +112,11 @@ namespace lowtone\woocommerce\coupons\batch {
 					if (!$batchOptions["enabled"])
 						return;
 
-					$couponCodes = array();
+					global $wpdb;
+
+					$query = "SELECT `post_title` FROM `{$wpdb->posts}` WHERE `post_type`='shop_coupon' AND `post_status`!='auto-draft'";
+
+					$couponCodes = $wpdb->get_col($query) ?: array();
 
 					/**
 					 * Create a coupon code from a key and a post title.
