@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Multiple Coupons\n"
+"POT-Creation-Date: 2013-04-26 14:13+0100\n"
+"PO-Revision-Date: 2013-04-26 14:13+0100\n"
+"Last-Translator: Paul van der Meijs <info@lowtone.nl>\n"
+"Language-Team: Lowtone <info@lowtone.nl>\n"
+"Language: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../lowtone-woocommerce-coupons-batch.php:38
+msgid "Multiple Coupons"
+msgstr "Meerdere kortingsbonnen"
+
+#: ../../lowtone-woocommerce-coupons-batch.php:44
+msgid "Create multiple Coupons"
+msgstr "Meerdere kortingsbonnen aanmaken"
+
+#: ../../lowtone-woocommerce-coupons-batch.php:50
+msgid "Options"
+msgstr "Opties"
+
+#: ../../lowtone-woocommerce-coupons-batch.php:54
+msgid "Amount"
+msgstr "Aantal"
+
+#: ../../lowtone-woocommerce-coupons-batch.php:61
+msgid "Key length"
+msgstr "Sleutellengte"
+
+#: ../../lowtone-woocommerce-coupons-batch.php:64
+#, php-format
+msgid ""
+"A unique random key is generated for each of the coupons. Keys are created "
+"using only alphanumeric characters. Put <strong>%s</strong> in your coupon "
+"code where you want the random key to be."
+msgstr ""
+"Een willekeurige unieke sleutel wordt gegenereerd voor elke kortingsbon. De "
+"sleutels worden samengesteld uit alphanumerieke karakters. Plaats <strong>"
+"%s</strong> op de plek waar de sleutel in de code van uw kortingsbon "
+"geplaatst moet worden."

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@mixin opacity($value: 1) {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$value*100})";
+	filter: alpha(opacity=#{$value*100});
+	-moz-opacity: $value;
+	-khtml-opacity: $value;
+	opacity: $value;
+};
+
+fieldset#lowtone_woocommerce_coupons_batch_options {
+	margin-top: 1em;
+
+	&.disabled {
+		@include opacity(.5);
+	}
+}
